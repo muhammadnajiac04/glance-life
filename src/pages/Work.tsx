@@ -80,8 +80,8 @@ export default function Health() {
               </div>
               <span className="text-2xl font-bold text-health"></span>
             </div>
-            <h3 className="font-semibold mb-2">Hobbie</h3>
-            <p className="text-sm text-muted-foreground mb-3">Instagram</p>
+            <h3 className="font-semibold mb-2">Add work </h3>
+            <p className="text-sm text-muted-foreground mb-3">Part time</p>
             <div className="w-full h-2 bg-secondary rounded-full overflow-hidden">
               <div className="h-full bg-health rounded-full" style={{ width: '84%' }} />
             </div>
@@ -95,8 +95,8 @@ export default function Health() {
               </div>
               <span className="text-2xl font-bold text-enjoy">2</span>
             </div>
-            <h3 className="font-semibold mb-2">Dance</h3>
-            <p className="text-sm text-muted-foreground mb-3">Chill and enjoy</p>
+            <h3 className="font-semibold mb-2">project</h3>
+            <p className="text-sm text-muted-foreground mb-3">add new project</p>
             <Button 
               variant="outline"
               className="w-full border-enjoy text-enjoy hover:bg-enjoy-light"
@@ -110,26 +110,26 @@ export default function Health() {
         {/* Stats Overview */}
         <div className="grid md:grid-cols-2 gap-6">
           <Card className="p-6">
-            <h3 className="text-lg font-semibold mb-4">mind Wheel</h3>
+            <h3 className="text-lg font-semibold mb-4">WORK</h3>
             <div className="aspect-square bg-gradient-health rounded-full flex items-center justify-center">
               <div className="text-center text-white">
-                <p className="text-4xl font-bold mb-2">80%</p>
-                <p className="text-sm">Overall Health</p>
+                <p className="text-4xl font-bold mb-2">60%</p>
+                <p className="text-sm">Overall Work</p>
               </div>
             </div>
           </Card>
 
           <Card className="p-6">
-            <h3 className="text-lg font-semibold mb-4">Mendal Tip</h3>
+            <h3 className="text-lg font-semibold mb-4">Working Tip</h3>
             <div className="bg-health-light p-4 rounded-lg mb-4">
               <p className="text-sm text-health-dark">
-                💡 <strong>Tip of the Day:</strong> back traveleing not possibel. enjoy every moement
+                💡 <strong>Tip of the Day:</strong> enjoying the Work 
               </p>
             </div>
             <div className="space-y-3">
               <div className="flex items-center justify-between">
-                <span className="text-sm">Weekly Hobbies</span>
-                <span className="text-sm font-semibold text-mind">42/56 cups</span>
+                <span className="text-sm">Weekly work</span>
+                <span className="text-sm font-semibold text-mind">30/56 cups</span>
               </div>
               <div className="w-full h-2 bg-secondary rounded-full overflow-hidden">
                 <div className="h-full bg-mind rounded-full" style={{ width: '75%' }} />
