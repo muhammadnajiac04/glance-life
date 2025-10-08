@@ -101,6 +101,11 @@ AI Hackathon 2025 — Building smarter, simpler digital tools for real life.
 
 
 Prompt 
+
+
+
+
+
 Create a complete, responsive, and interactive web application called Vibe Coding — a color-coded, all-in-one life and productivity dashboard designed for creators, learners, and builders.
 The app should feel like a personal operating system that balances productivity, wellbeing, creativity, and focus — all through elegant visuals and fluid interactions.
 
