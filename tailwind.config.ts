@@ -47,16 +47,61 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        sidebar: {
-          DEFAULT: "hsl(var(--sidebar-background))",
-          foreground: "hsl(var(--sidebar-foreground))",
-          primary: "hsl(var(--sidebar-primary))",
-          "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
-          accent: "hsl(var(--sidebar-accent))",
-          "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
-          border: "hsl(var(--sidebar-border))",
-          ring: "hsl(var(--sidebar-ring))",
+        health: {
+          DEFAULT: "hsl(var(--health))",
+          light: "hsl(var(--health-light))",
+          dark: "hsl(var(--health-dark))",
         },
+        enjoy: {
+          DEFAULT: "hsl(var(--enjoy))",
+          light: "hsl(var(--enjoy-light))",
+          dark: "hsl(var(--enjoy-dark))",
+        },
+        mind: {
+          DEFAULT: "hsl(var(--mind))",
+          light: "hsl(var(--mind-light))",
+          dark: "hsl(var(--mind-dark))",
+        },
+        work: {
+          DEFAULT: "hsl(var(--work))",
+          light: "hsl(var(--work-light))",
+          dark: "hsl(var(--work-dark))",
+        },
+        growth: {
+          DEFAULT: "hsl(var(--growth))",
+          light: "hsl(var(--growth-light))",
+          dark: "hsl(var(--growth-dark))",
+        },
+        home: {
+          DEFAULT: "hsl(var(--home))",
+          light: "hsl(var(--home-light))",
+          dark: "hsl(var(--home-dark))",
+        },
+        time: {
+          DEFAULT: "hsl(var(--time))",
+          light: "hsl(var(--time-light))",
+          dark: "hsl(var(--time-dark))",
+        },
+        settings: {
+          DEFAULT: "hsl(var(--settings))",
+          light: "hsl(var(--settings-light))",
+          dark: "hsl(var(--settings-dark))",
+        },
+      },
+      backgroundImage: {
+        'gradient-health': 'var(--gradient-health)',
+        'gradient-enjoy': 'var(--gradient-enjoy)',
+        'gradient-mind': 'var(--gradient-mind)',
+        'gradient-work': 'var(--gradient-work)',
+        'gradient-growth': 'var(--gradient-growth)',
+        'gradient-home': 'var(--gradient-home)',
+        'gradient-time': 'var(--gradient-time)',
+      },
+      boxShadow: {
+        'card': 'var(--shadow-card)',
+      },
+      transitionProperty: {
+        'smooth': 'var(--transition-smooth)',
       },
       borderRadius: {
         lg: "var(--radius)",

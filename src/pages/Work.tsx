@@ -1,0 +1,24 @@
+import { Card } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Briefcase } from "lucide-react";
+
+export default function Work() {
+  return (
+    <div className="min-h-screen bg-background pt-20 pb-8">
+      <div className="container mx-auto px-4 max-w-6xl">
+        <div className="mb-8">
+          <h1 className="text-3xl font-bold mb-2">Work</h1>
+          <p className="text-muted-foreground">Tasks and productivity tools</p>
+        </div>
+        
+        <Card className="p-12 text-center">
+          <Briefcase className="w-16 h-16 text-work mx-auto mb-4" />
+          <h2 className="text-2xl font-semibold mb-2">Work Module</h2>
+          <p className="text-muted-foreground mb-4">
+            Coming soon - Track projects, deadlines, and productivity
+          </p>
+        </Card>
+      </div>
+    </div>
+  );
+}
